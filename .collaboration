@@ -239,5 +239,15 @@
     },
     "LockDateTime": "2019-10-14T20:09:14.0046481+08:00",
     "ModuleType": 6
+  },
+  {
+    "ModuleName": "Pages\\文件夹2",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "ZIKEN\\dell",
+      "Email": "ziken@live.cn"
+    },
+    "LockDateTime": "2019-10-14T20:09:31.0840738+08:00",
+    "ModuleType": 6
   }
 ]
