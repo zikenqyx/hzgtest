@@ -1,0 +1,375 @@
+{
+  "Rows": {
+    "Sizes": {
+      "5": 30.0,
+      "7": 30.0,
+      "9": 30.0,
+      "11": 30.0,
+      "12": 30.0,
+      "13": 30.0,
+      "14": 30.0,
+      "15": 30.0,
+      "16": 30.0,
+      "18": 30.0,
+      "20": 30.0
+    },
+    "Count": 50
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "3,6": "ID:",
+    "5,6": "姓名:",
+    "7,6": "培训日期:",
+    "9,6": "讲师:",
+    "11,6": "反馈意见:",
+    "18,6": "满意度:",
+    "20,16": "取消"
+  },
+  "AttachInfos": {
+    "3,14": {
+      "BindingInfo": {
+        "TableName": "培训反馈",
+        "ColumnName": "ID"
+      }
+    },
+    "4,30": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "5,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "培训反馈",
+        "ColumnName": "姓名"
+      }
+    },
+    "7,14": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "培训反馈",
+        "ColumnName": "培训日期"
+      }
+    },
+    "9,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "培训反馈",
+        "ColumnName": "讲师"
+      }
+    },
+    "11,14": {
+      "CellType": {
+        "$type": "Forguncy.MultilineTextBox, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "培训反馈",
+        "ColumnName": "反馈意见"
+      }
+    },
+    "18,14": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, Forguncy",
+        "NoneItemText": "<空>",
+        "Style": 1,
+        "Items": [
+          {
+            "Value": "特别满意",
+            "DisplayValue": "特别满意"
+          },
+          {
+            "Value": "满意",
+            "DisplayValue": "满意"
+          },
+          {
+            "Value": "一般",
+            "DisplayValue": "一般"
+          },
+          {
+            "Value": "不满意",
+            "DisplayValue": "不满意"
+          },
+          {
+            "Value": "特别不满意",
+            "DisplayValue": "特别不满意"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "培训反馈",
+        "ColumnName": "满意度"
+      }
+    },
+    "20,10": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=培训反馈_详情页面!K21"
+                      }
+                    ]
+                  },
+                  "value": "添加",
+                  "Id": "d0cbf5eb-3f53-4939-8a3f-87f86e1b0abc"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                    "TableName": "培训反馈",
+                    "UpdateType": "add",
+                    "ConfirmText": "您确定添加这条记录?",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "07aa87c2-76c6-4368-8a85-fff0f4d8a262"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=培训反馈_详情页面!K21"
+                      }
+                    ]
+                  },
+                  "value": "更改",
+                  "Id": "28b5e42a-f23b-4b04-9e12-8b43bf25200d"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                    "TableName": "培训反馈",
+                    "ConfirmText": "您确定要更新这行记录吗？",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "9d23252f-f6a7-4e40-a808-5e94c0bd34b8"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "20,16": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "Text": "取消",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontWeight": 0
+      },
+      {
+        "VerticalAlignment": 1,
+        "WordWrap": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Top",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "3,6": 0,
+      "5,6": 0,
+      "7,6": 0,
+      "9,6": 0,
+      "11,6": 0,
+      "11,14": 1,
+      "12,6": 0,
+      "13,6": 0,
+      "14,6": 0,
+      "15,6": 0,
+      "16,6": 0,
+      "18,6": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "3,14,1,6",
+    "5,14,1,6",
+    "7,14,1,6",
+    "9,14,1,6",
+    "20,10,1,4",
+    "20,16,1,4",
+    "11,14,6,15",
+    "18,14,1,37"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "AuthorizeInfo": {
+      "VisitMode": 3
+    }
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}

@@ -1,0 +1,607 @@
+{
+  "Rows": {
+    "Sizes": {
+      "3": 55.0,
+      "5": 30.0,
+      "7": 30.0,
+      "8": 30.0,
+      "9": 30.0
+    },
+    "Count": 45
+  },
+  "Cols": {
+    "Sizes": {
+      "24": 47.0
+    },
+    "Count": 71
+  },
+  "Values": {
+    "3,23": "培训反馈 列表",
+    "7,6": "添加记录",
+    "9,34": "更改",
+    "9,37": "删除"
+  },
+  "AttachInfos": {
+    "5,35": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, Forguncy",
+        "NavigateToHomePageWhenLogout": true,
+        "CellCustomValue": "%CurrentUser%"
+      }
+    },
+    "7,6": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "培训反馈_详情页面",
+            "PassValues": [
+              {
+                "Source": "添加",
+                "TargetCell": {
+                  "SerializeProperty": "=培训反馈_详情页面!K21"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 2
+          }
+        ],
+        "Text": "添加记录",
+        "ClickMode": 1,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "7,45": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ImportExcelToListViewCommand, Forguncy",
+            "ListViewName": "表格1",
+            "ImportExcelToListViewColumnInfos": [
+              {
+                "Column": {
+                  "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                  "SerializeProperty": "=培训反馈_列表页面!I10"
+                },
+                "ColumnName": "姓名"
+              },
+              {
+                "Column": {
+                  "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                  "SerializeProperty": "=培训反馈_列表页面!L10"
+                },
+                "ColumnName": "培训日期"
+              },
+              {
+                "Column": {
+                  "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                  "SerializeProperty": "=培训反馈_列表页面!O10"
+                },
+                "ColumnName": "讲师"
+              },
+              {
+                "Column": {
+                  "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                  "SerializeProperty": "=培训反馈_列表页面!R10"
+                },
+                "ColumnName": "反馈意见"
+              },
+              {
+                "Column": {
+                  "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                  "SerializeProperty": "=培训反馈_列表页面!Z10"
+                },
+                "ColumnName": "满意度"
+              }
+            ]
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "8,6": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "培训反馈",
+        "RowIndex": 8,
+        "ColumnIndex": 6,
+        "ColumnCount": 36,
+        "RowCount": 12,
+        "IsRowHeaderVisible": true,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "Name": "表格1",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "9,8": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "培训反馈",
+        "ColumnName": "姓名"
+      }
+    },
+    "9,11": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "培训反馈",
+        "ColumnName": "培训日期"
+      }
+    },
+    "9,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "培训反馈",
+        "ColumnName": "讲师"
+      }
+    },
+    "9,17": {
+      "CellType": {
+        "$type": "Forguncy.MultilineTextBox, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "培训反馈",
+        "ColumnName": "反馈意见"
+      }
+    },
+    "9,25": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "培训反馈",
+        "ColumnName": "满意度"
+      }
+    },
+    "9,34": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "培训反馈_详情页面",
+            "PassValues": [
+              {
+                "Source": "更改",
+                "TargetCell": {
+                  "SerializeProperty": "=培训反馈_详情页面!K21"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 1
+          }
+        ],
+        "Text": "更改",
+        "ClickMode": 1,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "9,37": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.DeleteRecordCommand, Forguncy",
+            "ConfirmText": "您确定要删除吗？",
+            "UpdateValues": []
+          }
+        ],
+        "Text": "删除",
+        "ClickMode": 1,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 30.0,
+        "HorizontalAlignment": 0,
+        "VerticalAlignment": 0
+      },
+      {
+        "FontSize": 15.0,
+        "HorizontalAlignment": 1,
+        "VerticalAlignment": 0
+      },
+      {
+        "Foreground": 2,
+        "Underline": true
+      },
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 1,
+        "BorderLeft": 0,
+        "BorderRight": 1
+      },
+      {
+        "BorderBottom": 1,
+        "BorderLeft": 1,
+        "BorderRight": 1
+      },
+      {
+        "BorderBottom": 1,
+        "BorderLeft": 1
+      },
+      {
+        "BorderBottom": 1
+      },
+      {
+        "BorderBottom": 1,
+        "BorderRight": 1
+      },
+      {
+        "VerticalAlignment": 5,
+        "WordWrap": true,
+        "BorderBottom": 1,
+        "BorderLeft": 1
+      },
+      {
+        "Foreground": 2,
+        "Underline": true,
+        "BorderBottom": 1,
+        "BorderLeft": 1,
+        "BorderRight": 1
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Center",
+        "Right",
+        "Blue",
+        "DarkGray",
+        "#D8D8D8",
+        "Top",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 3
+        },
+        {
+          "Color": 4
+        }
+      ]
+    },
+    "CellStyles": {
+      "3,23": 0,
+      "5,35": 1,
+      "7,6": 2,
+      "8,6": 3,
+      "8,7": 4,
+      "8,8": 4,
+      "8,9": 4,
+      "8,10": 4,
+      "8,11": 4,
+      "8,12": 4,
+      "8,13": 4,
+      "8,14": 4,
+      "8,15": 4,
+      "8,16": 4,
+      "8,17": 4,
+      "8,18": 4,
+      "8,19": 4,
+      "8,20": 4,
+      "8,21": 4,
+      "8,22": 4,
+      "8,23": 4,
+      "8,24": 4,
+      "8,25": 4,
+      "8,26": 4,
+      "8,27": 4,
+      "8,28": 4,
+      "8,29": 4,
+      "8,30": 4,
+      "8,31": 4,
+      "8,32": 4,
+      "8,33": 4,
+      "8,34": 4,
+      "8,35": 4,
+      "8,36": 4,
+      "8,37": 4,
+      "8,38": 4,
+      "8,39": 4,
+      "8,40": 4,
+      "8,41": 5,
+      "9,6": 6,
+      "9,7": 7,
+      "9,8": 8,
+      "9,9": 9,
+      "9,10": 10,
+      "9,11": 8,
+      "9,12": 9,
+      "9,13": 10,
+      "9,14": 8,
+      "9,15": 9,
+      "9,16": 10,
+      "9,17": 11,
+      "9,18": 11,
+      "9,19": 11,
+      "9,20": 11,
+      "9,21": 11,
+      "9,22": 11,
+      "9,23": 9,
+      "9,24": 10,
+      "9,25": 8,
+      "9,26": 9,
+      "9,27": 9,
+      "9,28": 9,
+      "9,29": 9,
+      "9,30": 9,
+      "9,31": 9,
+      "9,32": 9,
+      "9,33": 10,
+      "9,34": 12,
+      "9,35": 7,
+      "9,36": 7,
+      "9,37": 12,
+      "9,38": 7,
+      "9,39": 7,
+      "9,41": 13,
+      "10,6": 14,
+      "10,41": 13,
+      "11,6": 14,
+      "11,41": 13,
+      "12,6": 14,
+      "12,41": 13,
+      "13,6": 14,
+      "13,41": 13,
+      "14,6": 14,
+      "14,41": 13,
+      "15,6": 14,
+      "15,41": 13,
+      "16,6": 14,
+      "16,41": 13,
+      "17,6": 14,
+      "17,41": 13,
+      "18,6": 14,
+      "18,41": 13,
+      "19,6": 15,
+      "19,7": 16,
+      "19,8": 16,
+      "19,9": 16,
+      "19,10": 16,
+      "19,11": 16,
+      "19,12": 16,
+      "19,13": 16,
+      "19,14": 16,
+      "19,15": 16,
+      "19,16": 16,
+      "19,17": 16,
+      "19,18": 16,
+      "19,19": 16,
+      "19,20": 16,
+      "19,21": 16,
+      "19,22": 16,
+      "19,23": 16,
+      "19,24": 16,
+      "19,25": 16,
+      "19,26": 16,
+      "19,27": 16,
+      "19,28": 16,
+      "19,29": 16,
+      "19,30": 16,
+      "19,31": 16,
+      "19,32": 16,
+      "19,33": 16,
+      "19,34": 16,
+      "19,35": 16,
+      "19,36": 16,
+      "19,37": 16,
+      "19,38": 16,
+      "19,39": 16,
+      "19,40": 16,
+      "19,41": 17
+    },
+    "SheetStyle": {
+      "FontFamily": 6
+    }
+  },
+  "Spans": [
+    "5,35,1,7",
+    "10,6,10,36",
+    "9,6,1,2",
+    "9,34,1,3",
+    "9,37,1,3",
+    "9,8,1,3",
+    "9,11,1,3",
+    "9,14,1,3",
+    "9,17,1,8",
+    "9,25,1,9",
+    "8,6,1,2",
+    "8,8,1,3",
+    "8,11,1,3",
+    "8,14,1,3",
+    "8,17,1,8",
+    "8,25,1,9",
+    "8,34,1,3",
+    "8,37,1,3",
+    "7,45,1,8"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "AuthorizeInfo": {
+      "VisitMode": 3
+    }
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}
