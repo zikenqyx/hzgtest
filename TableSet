@@ -14,23 +14,32 @@
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
           <Name>姓名</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.DateTime</ColumnType>
+          <DatabaseColumnType>System.Double</DatabaseColumnType>
           <Name>培训日期</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
           <Name>讲师</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
           <Name>反馈意见</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
           <Name>满意度</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.Int64</ColumnType>
+          <Name>整数</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
