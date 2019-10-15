@@ -81,16 +81,7 @@
   },
   {
     "ModuleName": "培训反馈_详情页面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZIKEN\\dell",
-      "Email": "ziken@live.cn"
-    },
-    "LockDateTime": "2019-10-14T18:04:35.8137253+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\培训反馈_详情页面.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "培训反馈_列表页面",
@@ -102,75 +93,7 @@
   },
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZIKEN\\dell",
-      "Email": "ziken@live.cn"
-    },
-    "LockDateTime": "2019-10-14T17:54:39.3129392+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "TableSet",
-      "ForguncyDB.sqlite3",
-      "DataConnectionSet",
-      "Upload\\13b5abb9-1b5c-4c3f-bae4-59a3051c2b7d_04.png",
-      "Upload\\13b5abb9-1b5c-4c3f-bae4-59a3051c2b7d_04.small.png",
-      "Upload\\1997d098-a8a1-405e-9e76-9826fe64ba76_01.png",
-      "Upload\\1997d098-a8a1-405e-9e76-9826fe64ba76_01.small.png",
-      "Upload\\20959cb7-2914-43c3-8ea2-56967bc0d1fd_08.png",
-      "Upload\\20959cb7-2914-43c3-8ea2-56967bc0d1fd_08.small.png",
-      "Upload\\27fecdd6-262c-4bf7-864f-31edcf74fc3b_11.png",
-      "Upload\\27fecdd6-262c-4bf7-864f-31edcf74fc3b_11.small.png",
-      "Upload\\4a42177a-2131-4cd5-8338-0c39eaa31954_自定义筛选面板.medium.png",
-      "Upload\\4a42177a-2131-4cd5-8338-0c39eaa31954_自定义筛选面板.png",
-      "Upload\\4a42177a-2131-4cd5-8338-0c39eaa31954_自定义筛选面板.small.png",
-      "Upload\\4da61a2c-3750-403b-8d59-5d73bcb2f5c1_大屏_销售信息.medium.png",
-      "Upload\\4da61a2c-3750-403b-8d59-5d73bcb2f5c1_大屏_销售信息.png",
-      "Upload\\4da61a2c-3750-403b-8d59-5d73bcb2f5c1_大屏_销售信息.small.png",
-      "Upload\\5146e224-97e9-4bbc-8dfa-10b0b3224b54_基本表格.medium.png",
-      "Upload\\5146e224-97e9-4bbc-8dfa-10b0b3224b54_基本表格.png",
-      "Upload\\5146e224-97e9-4bbc-8dfa-10b0b3224b54_基本表格.small.png",
-      "Upload\\54ad04cd-e04d-4da4-8111-586c59f9e435_10.png",
-      "Upload\\54ad04cd-e04d-4da4-8111-586c59f9e435_10.small.png",
-      "Upload\\5995d372-ba9f-477a-91a6-f342d047ab49_06.png",
-      "Upload\\5995d372-ba9f-477a-91a6-f342d047ab49_06.small.png",
-      "Upload\\64596835-2bbd-46bb-ac69-d9b3847525b5_大屏_会员分析.medium.png",
-      "Upload\\64596835-2bbd-46bb-ac69-d9b3847525b5_大屏_会员分析.png",
-      "Upload\\64596835-2bbd-46bb-ac69-d9b3847525b5_大屏_会员分析.small.png",
-      "Upload\\6c0e32f3-1a18-4241-a121-e64fcfe01755_02.png",
-      "Upload\\6c0e32f3-1a18-4241-a121-e64fcfe01755_02.small.png",
-      "Upload\\6d98717b-f525-463a-8c8c-a08b5ba3e403_透视表.medium.png",
-      "Upload\\6d98717b-f525-463a-8c8c-a08b5ba3e403_透视表.png",
-      "Upload\\6d98717b-f525-463a-8c8c-a08b5ba3e403_透视表.small.png",
-      "Upload\\79c911ea-e3a9-4e7a-ab53-53c66bbd833d_07.png",
-      "Upload\\79c911ea-e3a9-4e7a-ab53-53c66bbd833d_07.small.png",
-      "Upload\\82181c3e-625d-4376-83a2-3aee7bdf8ab0_数据统计风格主页.medium.png",
-      "Upload\\82181c3e-625d-4376-83a2-3aee7bdf8ab0_数据统计风格主页.png",
-      "Upload\\82181c3e-625d-4376-83a2-3aee7bdf8ab0_数据统计风格主页.small.png",
-      "Upload\\845311bd-5968-40f6-a3f8-d47ca4ce3df5_05.png",
-      "Upload\\845311bd-5968-40f6-a3f8-d47ca4ce3df5_05.small.png",
-      "Upload\\93c27bd1-e040-411d-8dc2-3978807ab03c_简单表格数据录入.medium.png",
-      "Upload\\93c27bd1-e040-411d-8dc2-3978807ab03c_简单表格数据录入.png",
-      "Upload\\93c27bd1-e040-411d-8dc2-3978807ab03c_简单表格数据录入.small.png",
-      "Upload\\950a18db-455a-41f7-9dd6-05678e83a285_03.png",
-      "Upload\\950a18db-455a-41f7-9dd6-05678e83a285_03.small.png",
-      "Upload\\96fc63c5-2273-4a09-a124-e172bf4cbbbc_09.png",
-      "Upload\\96fc63c5-2273-4a09-a124-e172bf4cbbbc_09.small.png",
-      "Upload\\a076472a-920c-4ac4-a826-7c37f6f10b5a_图文列表（卡片）.medium.png",
-      "Upload\\a076472a-920c-4ac4-a826-7c37f6f10b5a_图文列表（卡片）.png",
-      "Upload\\a076472a-920c-4ac4-a826-7c37f6f10b5a_图文列表（卡片）.small.png",
-      "Upload\\b742061d-2393-4f6d-8d60-3297e93c291b_图文列表.medium.png",
-      "Upload\\b742061d-2393-4f6d-8d60-3297e93c291b_图文列表.png",
-      "Upload\\b742061d-2393-4f6d-8d60-3297e93c291b_图文列表.small.png",
-      "Upload\\be1f01f2-377d-4fd8-8e14-4909bf838f5c_打印票据.medium.png",
-      "Upload\\be1f01f2-377d-4fd8-8e14-4909bf838f5c_打印票据.png",
-      "Upload\\be1f01f2-377d-4fd8-8e14-4909bf838f5c_打印票据.small.png",
-      "Upload\\d01a65a6-4357-4184-b849-9a690834f0aa_12.png",
-      "Upload\\d01a65a6-4357-4184-b849-9a690834f0aa_12.small.png",
-      "Upload\\e15706f9-f0b6-45f7-b091-8868fe3e6c3c_CardStylePage.medium.png",
-      "Upload\\e15706f9-f0b6-45f7-b091-8868fe3e6c3c_CardStylePage.png",
-      "Upload\\e15706f9-f0b6-45f7-b091-8868fe3e6c3c_CardStylePage.small.png"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "c0399537-e72c-407d-82a2-ce31c68456a2",
@@ -202,52 +125,22 @@
   },
   {
     "ModuleName": "培训反馈_详情页面1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "ZIKEN\\dell",
-      "Email": "ziken@live.cn"
-    },
-    "LockDateTime": "2019-10-14T19:48:27.2292093+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "培训反馈_列表页面1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "ZIKEN\\dell",
-      "Email": "ziken@live.cn"
-    },
-    "LockDateTime": "2019-10-14T19:48:27.2292093+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\文件夹1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "ZIKEN\\dell",
-      "Email": "ziken@live.cn"
-    },
-    "LockDateTime": "2019-10-14T20:09:00.1140926+08:00",
     "ModuleType": 6
   },
   {
     "ModuleName": "Pages\\文件夹1\\文件夹1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "ZIKEN\\dell",
-      "Email": "ziken@live.cn"
-    },
-    "LockDateTime": "2019-10-14T20:09:14.0046481+08:00",
     "ModuleType": 6
   },
   {
     "ModuleName": "Pages\\文件夹1\\文件夹2",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "ZIKEN\\dell",
-      "Email": "ziken@live.cn"
-    },
-    "LockDateTime": "2019-10-14T20:09:57.2222728+08:00",
     "ModuleType": 6
   }
 ]

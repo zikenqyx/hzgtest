@@ -1,2 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DataConnectionSet />
+<DataConnectionSet>
+  <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="Forguncy">
+    <ConnectionString>Data Source=www.apser.com.cn;Initial Catalog=aps-zhuzao;Persist Security Info=True;User ID=ziken;Password=Ziken751217</ConnectionString>
+    <DataBaseType>SqlServer</DataBaseType>
+  </Item>
+  <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="Forguncy">
+    <ConnectionString>Data Source=127.0.0.1;Initial Catalog=SD301N_Sample;Integrated Security=True;Persist Security Info=True</ConnectionString>
+    <DataBaseType>SqlServer</DataBaseType>
+  </Item>
+</DataConnectionSet>
